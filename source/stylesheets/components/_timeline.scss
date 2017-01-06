@@ -1,0 +1,88 @@
+
+.timeline-container {
+  display: flex;
+  background: #fafafa;
+  justify-content: center;
+  position: relative;
+}
+
+.title-timeline {
+position: absolute;
+top: 20px;
+left: 47%;
+}
+.timeline-bar {
+  background: #659157;
+  opacity: 0.4;
+  position: relative;
+  width: 3px;
+  z-index: 0;
+  // padding-top: 100px 0;
+      margin: 10px 0px;
+    margin-right: -26px;
+}
+
+.timeline-content {
+  position: relative;
+  max-width: 800px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.timeline-item-icon {
+  width: 55px;
+  height: 55px;
+  background: white;
+  border: 1px solid rgba(#659157, 0.4);
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-right: 30px;
+  flex: 0 0 50px;
+  color: #659157;
+}
+
+.timeline-item-info {
+  display: flex;
+}
+
+.timeline-item-title {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    flex: 0 0 300px;
+    text-align: left;
+}
+
+.timeline-item-description {
+  opacity: 0.5;
+  font-size: 16px;
+  text-align: left !important;
+}
+
+.timeline-icon {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.resume-titles {
+  padding-left: 240px;
+  font-style: italic;
+  text-align: left !important;
+  font-family: Bad Script;
+  font-size: 28px;
+  margin-top: 14px;
+  margin-bottom: 11px;
+  color: #83aa77;
+  font-weight: bold;
+}
